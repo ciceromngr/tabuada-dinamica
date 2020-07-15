@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+ 
+    <script>
+  
+    var num = parseInt(prompt('Digite o numero'));
+    var at = parseInt(prompt('Digite a quantidade que quer multiplicar'));
+
+    for(var i=0; i <= at; i++ ){
+        
+        document.write(num + ' x ' + i + ' = '+ num * i + '  ');
+        
+        if((num*i)%2 == 0){
+            document.write('PAR <br>')
+        }else{
+            document.write('impar <br>')
+        }
+    }
+    </script>
+</body>
+</html>
